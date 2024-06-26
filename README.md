@@ -1,6 +1,6 @@
 # Systematic Analysis of Instances with TIMES
 
-This repository contains a Python script (`run.py`) designed to perform a systematic analysis of a set of instances using the TIMES source code. The script processes instance data, generates benchmark statistics, and compares results against a ground truth from a previous run.
+This repository contains a Python script (`run.py`) designed to perform a systematic analysis of a set of instances using the [TIMES source code](https://github.com/etsap-TIMES/TIMES_model). The script processes instance data, generates benchmark statistics, and compares results against a ground truth from a previous run.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -48,7 +48,7 @@ This repository contains a Python script (`run.py`) designed to perform a system
     ```
 
 1. **Specify TIMES Source Code Location**:
-   In the `run.py` script, set the path to the TIMES source code. Modify the following line:
+   In the `run.py` script, set the path to the [TIMES source code](https://github.com/etsap-TIMES/TIMES_model). Modify the following line:
    ```python
    TIMES_SOURCE_PATH = '/path/to/times/source'
    ```
